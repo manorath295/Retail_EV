@@ -1,0 +1,65 @@
+# === PYTHON BUILD & CACHE FILES ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# === ENVIRONMENTS ===
+venv/
+.env
+.env.local
+*.env.*
+
+# === SYSTEM FILES ===
+.DS_Store
+Thumbs.db
+
+# === EDITOR / IDE FILES ===
+.vscode/
+.idea/
+*.swp
+
+# === TEST / TEMP FILES ===
+*.bak
+*.tmp
+*.old
+*.out
+
+# === COMPILED OR GENERATED FILES ===
+*.so
+*.dll
+*.dylib
+*.manifest
+
+# === DISTRIBUTION / BUILD OUTPUT ===
+build/
+dist/
+pip-wheel-metadata/
+
+# === JUPYTER / NOTEBOOK ===
+.ipynb_checkpoints/
+
+# === DATA / CONFIG BACKUPS (OPTIONAL) ===
+data/*.csv
+data/*.json
+!data/inventory.json   # keep this one tracked (important)
+data/backups/
+
+# === LANGCHAIN / AGENT GENERATED CACHE ===
+*.cache/
+cache/
+logs/
+
+# === NODE / FRONTEND STUFF (if using Streamlit UI) ===
+node_modules/
+package-lock.json
+yarn.lock
+
+# === OS / USER SPECIFIC ===
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
